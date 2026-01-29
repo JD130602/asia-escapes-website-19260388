@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enquiry | ASIA Escapes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="enquiry-page">
+
+
+  <header class="site-header">
+    <nav class="nav-left">
+
+      <div class="nav-item">
+        <a href="destinations.html">Destinations <span class="nav-caret">▾</span></a>
+        <ul class="dropdown">
+          <li><a href="destinations.html#indonesia">Indonesia</a></li>
+          <li><a href="destinations.html#thailand">Thailand</a></li>
+          <li><a href="destinations.html#vietnam">Vietnam</a></li>
+          <li><a href="destinations.html#cambodia">Cambodia</a></li>
+          <li><a href="destinations.html#maldives">Maldives</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-item">
+        <a href="styles.html">Holiday Styles <span class="nav-caret">▾</span></a>
+        <ul class="dropdown">
+          <li><a href="styles.html#wildlife">Wildlife</a></li>
+          <li><a href="styles.html#beach">Beach</a></li>
+          <li><a href="styles.html#luxury">Luxury</a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="ASIA Escapes logo">
+    </a>
+
+    <nav class="nav-right">
+      <div class="nav-item">
+        <a href="about.html">About Us <span class="nav-caret">▾</span></a>
+        <ul class="dropdown">
+          <li><a href="about.html#asia-escapes">ASIA Escapes</a></li>
+          <li><a href="about.html#process">Our Process</a></li>
+          <li><a href="about.html#pricing">Pricing Guide</a></li>
+        </ul>
+      </div>
+
+      <a href="enquiry.html">Enquiry</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="enquiry-title">
+      <div class="enquiry-wrap">
+        <h1>Start Your Journey</h1>
+        <p>
+          Tell us what you’re dreaming of — we’ll come back with tailored ideas, pacing, and the right destinations.
+        </p>
+      </div>
+    </section>
+
+
+    <section class="enquiry-section">
+      <div class="enquiry-wrap">
+
+        <div class="enquiry-grid">
+         
+          <div class="enquiry-card">
+            <h2>Your details</h2>
+
+            <form class="enquiry-form" action="#" method="post">
+              <div class="form-row">
+                <div class="field">
+                  <label for="firstName">First name</label>
+                  <input id="firstName" name="firstName" type="text" required>
+                </div>
+
+                <div class="field">
+                  <label for="lastName">Last name</label>
+                  <input id="lastName" name="lastName" type="text" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" required>
+                </div>
+
+                <div class="field">
+                  <label for="phone">Phone (optional)</label>
+                  <input id="phone" name="phone" type="tel">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="style">Holiday style</label>
+                  <select id="style" name="style" required>
+                    <option value="" selected disabled>Select one</option>
+                    <option>Wildlife</option>
+                    <option>Beach</option>
+                    <option>Luxury</option>
+                    <option>Multi-destination</option>
+                  </select>
+                </div>
+
+                <div class="field">
+                  <label for="destination">Preferred destination</label>
+                  <select id="destination" name="destination">
+                    <option value="" selected>Open to suggestions</option>
+                    <option>Indonesia</option>
+                    <option>Thailand</option>
+                    <option>Vietnam</option>
+                    <option>Cambodia</option>
+                    <option>Maldives</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="dates">Travel dates (approx.)</label>
+                  <input id="dates" name="dates" type="text" placeholder="e.g. June 2026">
+                </div>
+
+                <div class="field">
+                  <label for="budget">Budget (per person)</label>
+                  <select id="budget" name="budget">
+                    <option value="" selected>Prefer not to say</option>
+                    <option>£2,000 – £3,500</option>
+                    <option>£3,500 – £6,500</option>
+                    <option>£6,500+</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="message">Tell us what you’re looking for</label>
+                <textarea id="message" name="message" rows="6" placeholder="Interests, pace, hotel style, must-sees..."></textarea>
+              </div>
+
+              <div class="field checkbox-field">
+                <input id="newsletter" type="checkbox" name="newsletter">
+                <label for="newsletter">Subscribe to the newsletter</label>
+              </div>
+
+              <button class="enquiry-submit" type="submit">Send enquiry</button>
+            </form>
+          </div>
+
+
+          <div class="enquiry-card">
+            <h2>What happens next?</h2>
+            <ul class="enquiry-steps">
+              <li><strong>We review</strong> your request within 1–2 working days.</li>
+              <li><strong>We suggest</strong> routes, pacing and the right destinations.</li>
+              <li><strong>We refine</strong> until it feels perfect.</li>
+              <li><strong>We book</strong> everything and support you while you travel.</li>
+            </ul>
+
+            <div class="enquiry-divider"></div>
+
+            <h3>Contact</h3>
+            <p class="enquiry-muted">
+              Email: asia_escapes_business@gmail.com<br>
+              Phone: +44 (0)20 7502 9481<br>
+              Hours: Mon–Fri, 9:00–17:30
+            </p>
+
+            <div class="enquiry-map">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.245906548805!2d-0.02033758751736135!3d51.50870441049001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602b6b4a87d01%3A0x69556d0211d032ca!2sNew%20City%20College%20-%20Tower%20Hamlets%20Campus!5e0!3m2!1sen!2suk!4v1769481131007!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  </div>
+
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer footer-inner">
+    <div class="footer-content footer-content-inner">
+
+      <div class="footer-links">
+        <div class="footer-column">
+          <h4>Plan Your Trip</h4>
+          <a href="enquiry.html">Enquiry</a>
+          <a href="about.html#process">Our Process</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Information</h4>
+          <a href="about.html#pricing">Pricing</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>About Us</h4>
+          <a href="about.html#asia-escapes">ASIA Escapes</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Socials</h4>
+          <a href="https://www.instagram.com/letasia_escapes/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61584056049806" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://x.com/Asia_escapes" target="_blank" rel="noopener">X</a>
+        </div>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4>Subscribe to our Newsletter</h4>
+        <p>Travel inspiration, destination guides and exclusive offers.</p>
+
+        <form class="newsletter-form">
+          <input type="text" placeholder="First name" required>
+          <input type="text" placeholder="Last name" required>
+          <input type="email" placeholder="Email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <div class="footer-logo">
+        <img src="images/logo2 (2).png" alt="ASIA Escapes logo">
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 ASIA Escapes. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
