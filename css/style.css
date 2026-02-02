@@ -1992,18 +1992,18 @@ body {
 
 }
 
-/* ===== MOBILE HEADER FIX ===== */
+
 @media (max-width: 768px) {
 
   .site-header {
-    grid-template-columns: 1fr; /* stack items */
+    grid-template-columns: 1fr; 
     padding: 12px 16px;
     gap: 10px;
     text-align: center;
   }
 
   .logo img {
-    height: 80px; /* smaller logo */
+    height: 80px; 
   }
 
   .nav-left,
@@ -2019,7 +2019,7 @@ body {
   }
 
 }
-/* ===== MOBILE HEADER LAYOUT ===== */
+
 @media (max-width: 768px) {
 
   .site-header {
@@ -2043,5 +2043,6 @@ body {
   }
 
 }
+
 
 
