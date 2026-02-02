@@ -2018,4 +2018,29 @@ body {
     padding: 8px 10px;
   }
 
+
+/* ===== MOBILE HEADER LAYOUT ===== */
+@media (max-width: 768px) {
+
+  .site-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 12px;
+    gap: 10px;
+  }
+
+  .logo img {
+    height: 70px;
+  }
+
+  .nav-left,
+  .nav-right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
 }
+
