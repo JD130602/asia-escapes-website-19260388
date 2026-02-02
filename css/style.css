@@ -2018,7 +2018,7 @@ body {
     padding: 8px 10px;
   }
 
-
+}
 /* ===== MOBILE HEADER LAYOUT ===== */
 @media (max-width: 768px) {
 
@@ -2043,4 +2043,5 @@ body {
   }
 
 }
+
 
